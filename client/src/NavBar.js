@@ -1,4 +1,5 @@
 import {Container, Navbar,Nav,NavDropdown} from 'react-bootstrap';
+import React from 'react'
 import {
     BrowserRouter as Router,
     Routes,
@@ -36,12 +37,14 @@ function NavBar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    <Router>
     <Routes>
       <Route path="/home" element={<Home/>}/>
       <Route path="/login" element={<Login/>}/>
                 
                   
               </Routes>
+              </Router>
   
     </header>
   );
