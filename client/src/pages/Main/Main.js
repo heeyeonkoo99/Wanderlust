@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Footer from "../../components/Footer/Footer";
+import Footer from "../../components/Footer";
 import MainTop from "./MainSliderSection/MainTop";
 import MainSlider from "./MainSliderSection/MainSlider"; 
 
